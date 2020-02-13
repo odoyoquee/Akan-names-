@@ -1,6 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Fondamento&display=swap');
 body{
     background-image: url('../images/media.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+}
+#home{
+    font-family: 'Fondamento', cursive;
+    font-size: 25px;
+}
+#ab{
+    color:white;
+    font-family: 'Fondamento', cursive;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    text-align: center;
+    border:2px dotted black;
+    border-width: auto;
+
+}
+footer{
+    color: white;
+    font-family: 'Fondamento', cursive;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+
 }
