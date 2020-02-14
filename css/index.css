@@ -88,3 +88,19 @@ footer{
     color:10px whitesmoke;
 
   }
+  #cont{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 27px;
+    font-family: 'Fondamento', cursive;
+    font-family: 'Courgette', cursive;
+  }
+  .submit{
+    text-align: center;
+    align-content: center;align-items: center;
+
+  }
+  #form{
+    font-family: 'Fondamento', cursive;
+    font-family: 'Courgette', cursive;
+  }
