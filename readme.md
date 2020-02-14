@@ -22,6 +22,16 @@ The project basically explains the use of the akan naming system in Ghana whereb
 - On the contacts page,the user enters their name,email address and then a message then clicks the submit button to send their message for more information on Akan Names.
 
 ## Live links
+ - gh-pages link-https://odoyoquee.github.io/Akan-names-/
+
+ ## Contact Information
+ Email address: odoyograce23@gmail.com
+ Phone: 0726294456
+
+ ## License and Copyright Information
+  - MIT License Copyright (c) 2020 (Odoyo Grace Awino)
+ - - [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+
 
 
 
