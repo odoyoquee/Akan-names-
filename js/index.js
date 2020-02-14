@@ -34,80 +34,80 @@ function akanNames() {
         }
             //The Math.ceil() function always rounds a number up to the next largest whole number
             //day 1 Monday
-        else if(Math.ceil(dayOfTheWeek)==1 && gender ==='male'||gender==='female|'){
+        else if(Math.ceil(dayOfTheWeek)==0 && gender ==='male'||gender==='female|'){
             if(gender==='male'){
              document.getElementById("results").innerHTML=
-               "Your akan name is "+maleNames[1]+" ,which means you were born on a Monday."
+               "Your akan name is "+maleNames[0]+" ,which means you were born on a Monday."
             }
             else{
                document.getElementById("results").innerHTML=
-               "Your akan name is "+femaleNames[1]+" ,which means you were born on a Monday."
+               "Your akan name is "+femaleNames[0]+" ,which means you were born on a Monday."
             }
          }
            // day 2 Tuesday
-        else if(Math.ceil(dayOfTheWeek)==2 && gender ==='female'|| gender==='male'){
+        else if(Math.ceil(dayOfTheWeek)==1 && gender ==='female'|| gender==='male'){
             if(gender==='male'){
              document.getElementById("results").innerHTML=
-             "Your akan name is "+maleNames[2] +", which means you were born on a Tuesday."
+             "Your akan name is "+maleNames[1] +", which means you were born on a Tuesday."
             }
             else{
                 document.getElementById("results").innerHTML=
-                "Your akan name is "+femaleNames[2]+", which means you were born on a Tuesday."
+                "Your akan name is "+femaleNames[1]+", which means you were born on a Tuesday."
            }
          }
           // day 3 Wednesday
-        else if(Math.ceil(dayOfTheWeek)===3 && gender ==='female'|| gender==='male'){
+        else if(Math.ceil(dayOfTheWeek)===2 && gender ==='female'|| gender==='male'){
             if(gender==='male'){
              document.getElementById("results").innerHTML=
-             "Your akan name is "+maleNames[3] +", which means you were born on a Wednesday."
+             "Your akan name is "+maleNames[2] +", which means you were born on a Wednesday."
             }
             else{
                 document.getElementById("results").innerHTML=
-                "Your akan name is "+femaleNames[3]+", which means you were born on a Wednesday."
+                "Your akan name is "+femaleNames[2]+", which means you were born on a Wednesday."
            }
          }
           // day 4 Thursday
-        else if(Math.ceil(dayOfTheWeek)==4 && gender ==='female'|| gender==='male'){
+        else if(Math.ceil(dayOfTheWeek)==3 && gender ==='female'|| gender==='male'){
             if(gender==='male'){
              document.getElementById("results").innerHTML=
-             "Your akan name is "+maleNames[4] +", which means you were born on a Thursday."
+             "Your akan name is "+maleNames[3] +", which means you were born on a Thursday."
             }
             else{
                 document.getElementById("results").innerHTML=
-                "Your akan name is "+femaleNames[4]+", which means you were born on a Thursday."
+                "Your akan name is "+femaleNames[3]+", which means you were born on a Thursday."
            }
          }
           // day 5 Friday
-        else if(Math.ceil(dayOfTheWeek)==5 && gender ==='female'|| gender==='male'){
+        else if(Math.ceil(dayOfTheWeek)==4 && gender ==='female'|| gender==='male'){
             if(gender==='male'){
              document.getElementById("results").innerHTML=
-             "Your akan name is "+maleNames[5] +", which means you were born on a Friday."
+             "Your akan name is "+maleNames[4] +", which means you were born on a Friday."
             }
             else{
                 document.getElementById("results").innerHTML=
-                "Your akan name is "+femaleNames[5]+", which means you were born on a Friday."
+                "Your akan name is "+femaleNames[4]+", which means you were born on a Friday."
            }
          }
           // day 6 Saturday
+        else if(Math.ceil(dayOfTheWeek)==5 && gender ==='female'|| gender==='male'){
+            if(gender==='male'){
+             document.getElementById("results").innerHTML=
+             "Your akan name is "+maleNames[5] +", which means you were born on a Saturday."
+            }
+            else{
+                document.getElementById("results").innerHTML=
+                "Your akan name is "+femaleNames[5]+", which means you were born on a Saturday."
+           }
+         }
+        //   day 7  Sunday
         else if(Math.ceil(dayOfTheWeek)==6 && gender ==='female'|| gender==='male'){
             if(gender==='male'){
              document.getElementById("results").innerHTML=
-             "Your akan name is "+maleNames[6] +", which means you were born on a Saturday."
+             "Your akan name is "+maleNames[6] +", which means you were born on a Sunday."
             }
             else{
                 document.getElementById("results").innerHTML=
-                "Your akan name is "+femaleNames[6]+", which means you were born on a Saturday."
-           }
-         }
-          // day 7  Sunday
-        else if(Math.ceil(dayOfTheWeek)==0 && gender ==='female'|| gender==='male'){
-            if(gender==='male'){
-             document.getElementById("results").innerHTML=
-             "Your akan name is "+maleNames[0] +", which means you were born on a Sunday."
-            }
-            else{
-                document.getElementById("results").innerHTML=
-                "Your akan name is "+femaleNames[0] +", which means you were born on a Sunday."
+                "Your akan name is "+femaleNames[6] +", which means you were born on a Sunday."
            }
         }
          // default prompt user to enter his or her details
