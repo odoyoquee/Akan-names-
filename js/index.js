@@ -11,100 +11,99 @@ function akanNames() {
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var gender;
     //gender
-      if (document.getElementById("gender").checked) {
-         gender = 'male';
-      } else {
-         gender = 'female';
-      }
-      // date val
-      if (MM < 0 || MM > 12) {
+    if (document.getElementById("gender").checked) {
+        gender = 'male';
+    } else {
+        gender = 'female';
+    }
+    // date val
+    if (MM < 0 || MM > 12) {
         alert("invalid month ");
-      }
-      // checking if day is correct and does not exceed limit.  if its not correct alert user
-      else if (DD < 0 || DD > 31) {
+    }
+    // checking if day is correct and does not exceed limit.  if its not correct alert user
+    else if (DD < 0 || DD > 31) {
         alert("invalid  Date");
-      }
-      // validating february month ...leap year to be checked
-      else if (MM == 2 && DD > 29) {
+    }
+    // validating february month ...leap year to be checked
+    else if (MM == 2 && DD > 29) {
         alert("This month does not have those number of days");
-      }
-      // validating year
-      else if (YY < 1000 || YY > 2020) {
+    }
+    // validating year
+    else if (YY < 1000 || YY > 2020) {
         alert("Invalid year");
     }
     //maleNames
     //Monday
-     else if (Math.ceil(dayOfTheWeek) == 1 && gender === 'male') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + maleNames[1] + " ,which means you were born on a Monday.";
+    else if (Math.ceil(dayOfTheWeek) == 1 && gender === 'male') {
+        document.getElementById("results").innerHTML =
+            "Your day name is " + maleNames[1] + " ,which means you were born on a Monday.";
     }
     //Tuesday
     else if (Math.ceil(dayOfTheWeek) == 2 && gender === 'male') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + maleNames[2] + " ,which means you were born on a Tuesday.";
-    } 
+        document.getElementById("results").innerHTML =
+            "Your day name is " + maleNames[2] + " ,which means you were born on a Tuesday.";
+    }
     //Wednesday
     else if (Math.ceil(dayOfTheWeek) == 3 && gender === 'male') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + maleNames[3] + " ,which means you were born on a Wednesday.";
-    } 
+        document.getElementById("results").innerHTML =
+            "Your day name is " + maleNames[3] + " ,which means you were born on a Wednesday.";
+    }
     //Thursday
     else if (Math.ceil(dayOfTheWeek) == 4 && gender === 'male') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + maleNames[4] + " ,which means you were born on a Thursday.";
-    } 
+        document.getElementById("results").innerHTML =
+            "Your day name is " + maleNames[4] + " ,which means you were born on a Thursday.";
+    }
     //Friday
     else if (Math.ceil(dayOfTheWeek) == 5 && gender === 'male') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + maleNames[5] + " ,which means you were born on a Friday.";
+        document.getElementById("results").innerHTML =
+            "Your day name is " + maleNames[5] + " ,which means you were born on a Friday.";
     }
     //Saturday
     else if (Math.ceil(dayOfTheWeek) == 6 && gender === 'male') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + maleNames[6] + " ,which means you were born on a Saturday.";
+        document.getElementById("results").innerHTML =
+            "Your day name is " + maleNames[6] + " ,which means you were born on a Saturday.";
     }
     //Sunday
     else if (Math.ceil(dayOfTheWeek) == 0 && gender === 'male') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + maleNames[0] + " ,which means you were born on a Sunday.";
+        document.getElementById("results").innerHTML =
+            "Your day name is " + maleNames[0] + " ,which means you were born on a Sunday.";
     }
     //femaleNames
     //Monday
     else if (Math.ceil(dayOfTheWeek) == 1 && gender === 'female') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + femaleNames[1] + " ,which means you were born on a Monday.";
+        document.getElementById("results").innerHTML =
+            "Your day name is " + femaleNames[1] + " ,which means you were born on a Monday.";
     }
-     //Tuesday
+    //Tuesday
     else if (Math.ceil(dayOfTheWeek) == 2 && gender === 'female') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + femaleNames[2] + " ,which means you were born on a Tuesday.";
+        document.getElementById("results").innerHTML =
+            "Your day name is " + femaleNames[2] + " ,which means you were born on a Tuesday.";
     }
     //Wednesday
     else if (Math.ceil(dayOfTheWeek) == 3 && gender === 'female') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + femaleNames[3] + " ,which means you were born on a Wednesday.";
+        document.getElementById("results").innerHTML =
+            "Your day name is " + femaleNames[3] + " ,which means you were born on a Wednesday.";
     }
-     //Thursday
+    //Thursday
     else if (Math.ceil(dayOfTheWeek) == 4 && gender === 'female') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + femaleNames[4] + " ,which means you were born on a Thursday.";
+        document.getElementById("results").innerHTML =
+            "Your day name is " + femaleNames[4] + " ,which means you were born on a Thursday.";
     }
-     //Friday
+    //Friday
     else if (Math.ceil(dayOfTheWeek) == 5 && gender === 'female') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + femaleNames[5] + " ,which means you were born on a Friday.";
-    } 
+        document.getElementById("results").innerHTML =
+            "Your day name is " + femaleNames[5] + " ,which means you were born on a Friday.";
+    }
     //Saturday
     else if (Math.ceil(dayOfTheWeek) == 6 && gender === 'female') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + femaleNames[6] + " ,which means you were born on a Saturday.";
-    } 
-     //Sunday
-    else if (Math.ceil(dayOfTheWeek) == 0 && gender === 'female') {
-      document.getElementById("results").innerHTML =
-        "Your day name is " + femaleNames[0] + " ,which means you were born on a Sunday.";
-    } else {
-      alert('enter your information please');
+        document.getElementById("results").innerHTML =
+            "Your day name is " + femaleNames[6] + " ,which means you were born on a Saturday.";
     }
-  }
-  
+    //Sunday
+    else if (Math.ceil(dayOfTheWeek) == 0 && gender === 'female') {
+        document.getElementById("results").innerHTML =
+            "Your day name is " + femaleNames[0] + " ,which means you were born on a Sunday.";
+    } else {
+        alert('enter your information please');
+    }
+}
