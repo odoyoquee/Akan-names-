@@ -1,5 +1,5 @@
 # Project Name
-AKAN NAMES
+- AKAN NAMES
 ## Project description
 The project basically explains the use of the akan naming system in Ghana whereby one can get his/her name depending on their gender and the day that he/she was born.
 ## Author
@@ -22,10 +22,10 @@ The project basically explains the use of the akan naming system in Ghana whereb
 - On the contacts page,the user enters their name,email address and then a message then clicks the submit button to send their message for more information on Akan Names.
 
 ## Live links
- - gh-pages link-https://odoyoquee.github.io/Akan-names-/
+ - gh-pages link- https://odoyoquee.github.io/Akan-names-/
 
  ## Contact Information
- Email address: odoyograce23@gmail.com
+ Email address: odoyograce23@gmail.com<br>
  Phone: 0726294456
 
  ## License and Copyright Information
